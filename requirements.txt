@@ -1,5 +1,6 @@
-pyarrow
 matplotlib
 ipykernel
 seaborn
 pandas
+scipy
+scikit-learn

@@ -1,2 +1,57 @@
-.MyVenv
-dataset/*
+.venv
+datasets/*
+models/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.env/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# PyCharm files
+.idea/
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.swp
+*.swo
+
+# Secrets and credentials
+.env
+*.key
+*.pem
